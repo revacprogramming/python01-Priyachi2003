@@ -1,3 +1,4 @@
 # Conditional Execution
-
-hrs = input("Enter hours? ")
+#name="reva"
+s="word"
+print(s[ :-1])
