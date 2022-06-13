@@ -1,3 +1,16 @@
 # Files
+fname = mbox-short.txt
+fh = open(fname)
+count=0
+total=0
+for line in fh:
+    if not line.startswith("X-DSPAM-Confidence:"):
+        continue
 
-filename = "dataset/mbox-short.txt"
+        ab=float(line.find("0"))
+        print(ab)
+        count=count+1
+        total=total+ab
+average=total/count
+print("Average spam confidence: ",average)
+        
