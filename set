@@ -1,0 +1,58 @@
+
+# Online Python - IDE, Editor, Compiler, Interpreter
+
+S={1,2,3}
+L=[1,2,3]
+S1=set(L)
+print(S1)
+print(L)
+S.add("R")
+print(S)
+S.update({4,5})
+print(S)
+S.update([5,6])
+print(S)
+S1={4,5,6}
+S2={1,2,3}
+S1.update(S2)
+print(S1)
+S1.pop()
+print(S1)
+S1.remove(2)
+print(S1)
+S1.discard(2)
+print(S1)
+#S1.clear()
+print(S1)
+print(len(S2))
+for x in S2:
+    print(x)
+print(2 in S2)
+S1=S2
+print(S1)
+print(S2)
+S2.remove(1)
+print(S2)
+print(S1)
+S2=S1.copy()
+S2.remove(2)
+print(S1)
+print(S2)
+S1={1,2,3}
+S2={2,3}
+print(S1 | S2)
+print(S1.intersection(S2))
+print(S1.difference(S2))
+print(S1 ^ S2)    #symmetricdifference
+print(S1.symmetric_difference(S2))
+print(S1.isdisjoint(S2))
+print(S2.issubset(S1))
+print(S1.issuperset(S2))
+l=([1])
+print(l)
+
+
+
+
+
+
